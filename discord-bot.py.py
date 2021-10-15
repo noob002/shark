@@ -11,7 +11,7 @@ from youtube_dl import YoutubeDL, options
 import asyncio
 import time
 from urllib import request
-
+import os
 
 bot = commands.Bot(command_prefix='!')
 
@@ -210,4 +210,5 @@ async def 명령어(ctx):
 \n검색은 정확하지 않으니 주의 하세요.
 \nURL 에서만 자막이 작동 합니다.""", color = 0x00ff00))
 
-bot.run('ODczNDk1ODUzNjM2MTQxMTE2.YQ5QaA.onasyYP0OvYajcRd_059dWuiDy0')
+access_token  = os.environ["BOT_TOKEN"]
+bot.run(access_token)
