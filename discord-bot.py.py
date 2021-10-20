@@ -210,4 +210,4 @@ async def 명령어(ctx):
 \n검색은 정확하지 않으니 주의 하세요.
 \nURL 에서만 자막이 작동 합니다.""", color = 0x00ff00))
 
-bot.run('ODczNDk1ODUzNjM2MTQxMTE2.YQ5QaA.UsR0V1kLbsycGU88jM4C7_-nCyA')
+bot.run('ODczNDk1ODUzNjM2MTQxMTE2.YQ5QaA.NzL21c78lPfmdDzdEE8FnxBmhnQ')
